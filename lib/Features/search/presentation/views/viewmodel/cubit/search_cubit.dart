@@ -4,7 +4,7 @@ import 'package:bookly/Features/search/data/repos/search_repo_implementation.dar
 import 'package:bookly/core/errors/failure.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
-
+ 
 part 'search_state.dart';
 
 //second commit

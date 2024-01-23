@@ -21,7 +21,7 @@ final BookModel book;
             placeholder: (context, url) => Center(child: CircularProgressIndicator(),),
             fit: BoxFit.fill,
             errorWidget: (context, url, error) => Center(child: Text("error"),),
-            imageUrl: imageurl==null?"https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt0140200d2e243fae/60dd0aab5543520fcbc72a37/dee970e94399062b52ff4e58bc911bd19e77e206.jpg?auto=webp&format=pjpg&width=3840&quality=60":imageurl!,
+            imageUrl: imageurl==null?"https://assets.goal.  com/v3/assets/bltcc7a7ffd2fbf71f5/blt0140200d2e243fae/60dd0aab5543520fcbc72a37/dee970e94399062b52ff4e58bc911bd19e77e206.jpg?auto=webp&format=pjpg&width=3840&quality=60":imageurl!,
          ),
         ),
       ),

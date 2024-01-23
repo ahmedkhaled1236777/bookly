@@ -1,3 +1,4 @@
+import 'package:bookly/Features/stripepayment/paymentmanager.dart';
 import 'package:bookly/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -25,11 +26,13 @@ final BookModel book;
                 RoundedRectangleBorder(borderRadius: border)),
             backgroundColor: MaterialStatePropertyAll(buttoncolor)),
         onPressed: () async {
-          final Uri _url = Uri.parse(book.volumeInfo!.previewLink!);
+          paymentmanager.makeapayment(100, "USD");
+
+       /*   final Uri _url = Uri.parse(book.volumeInfo!.previewLink!);
            if (!await launchUrl(_url)) {
     throw Exception('Could not launch $_url');
 
-        }},
+        }*/},
         child: Text(
           buttonname,
           style: featurestyles.textstyle20
